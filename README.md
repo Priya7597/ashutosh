@@ -1,2 +1,2 @@
 # ashutosh
-smartphone manufacturing
+permalink:/index.html
