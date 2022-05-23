@@ -17,7 +17,8 @@
         }
         h3 {
             font-weight: bold;
-            color:rgb(6, 212, 219)
+            color:rgb(6, 212, 219);
+            text-decoration:underline;
         }
         p {color: black;}
 
@@ -53,6 +54,52 @@
         .B5 {
             margin-right: 4px;
         }
+        .navbar{
+            float:left;
+            display:inline-block;
+            width:100%;
+            height:35%;
+            background-color:brown;
+        }
+        .navbar a{ 			
+            color:white;			
+            text-align:center;
+            padding-top:30px;
+            font-size: 22px;
+            font-weight: bold;
+            padding-right:40px;
+            padding-left:40px ;
+            padding-bottom:30px;
+            letter-spacing:4px;
+            text-decoration:none;
+            transition :0.6s ease;
+        } 
+         
+        .cont{
+            max-width:700px;
+            margin-left:auto;
+            margin-right:auto;
+            padding:0.01em 16px;
+        }
+        .tag1{
+            color:white ;
+            display :inline-block ;
+            padding-right :8px;
+            padding-left :18px;
+            text-align :center ;
+        }
+        .header3{
+            padding:5px;
+            text-align :center ;
+            background-color :brown;
+            color:white ;
+        }
+        .header3 p{
+            color:white ;
+            font-size:22px;
+        }
+
+
 
       </style>
 
@@ -60,11 +107,24 @@
 <body>
     <h2><b>Smartphones Manufacturing</b></h2>
     
-    <p style="text-align: center; color:brown; font-weight: bold;">by Ashutosh Patil</p>
+    
+    <div class="navbar">
+        <a href="#home">HOME</a>
+        <a href="#overview">OVERVIEW</a>
+        <a href="#materials">MATERIALS</a>
+        <a href="#steps">STEPS</a>
+        <a href="#contact">CONTACT</a>
+    </div>
+
+    <br>
+    <br>
+    <p style="text-align: center; color:brown; font-weight: bold;">BY <br><p style="font-size=20px; text-align: center;
+        color: rgb(6, 212, 219);font-weight: bold;">Ashutosh Patil</p></p>
     <br>
     <hr>
 
-    <div>
+    <div id="overview">
+    
         <h3>
             Overview  :
         </h3>
@@ -77,32 +137,33 @@
             <img src="https://www.nhm.ac.uk/content/dam/nhmwww/discover/minerals-mobile/minerals-mobile-phone-full-width.jpg.thumb.1160.1160.jpg" style="max-width:80%;height:10%;padding-left: 10%;padding-right: 10%;">
 
         </p>
-    </div>
-    <div>
-        <h3>
-            Mobile Phone Manufacturing in India   :
-        </h3>
-        <p>
-            Last year, India overtook the United States and Now "India has emerged as the 2nd largest manufacturer of mobile 
-            handsets in the world in volume terms after “China” ,India is not far from becoming the leading handset market in the world.
-        </p>
-    </div>
     
-    <img src="https://i.ytimg.com/vi/GeSlK9dgXAw/maxresdefault.jpg" style="max-width:50%;height:10%;padding-left: 25%;">
+        <div>
+            <h3>
+                Mobile Phone Manufacturing in India   :
+            </h3>
+            <p>
+                Last year, India overtook the United States and Now "India has emerged as the 2nd largest manufacturer of mobile 
+                handsets in the world in volume terms after “China” ,India is not far from becoming the leading handset market in the world.
+            </p>
+        </div>
+    
+        <img src="https://i.ytimg.com/vi/GeSlK9dgXAw/maxresdefault.jpg" style="max-width:50%;height:10%;padding-left: 25%;">
 
-    <h5>5 largest Mobile Manufacturing Plants in India are:</h5>
-    <div style="padding-left: 10%;">
-        <button class="B1">SAMSUNG</button>
-        <button class="B2">LAVA</button>
-        <button class="B3">INTEX</button>
-        <button class="B4">MICROMAX</button>
-        <button class="B5">KARBONN</button>
+        <h5>5 largest Mobile Manufacturing Plants in India are:</h5>
+        <div style="padding-left: 10%;">
+            <button class="B1">SAMSUNG</button>
+            <button class="B2">LAVA</button>
+            <button class="B3">INTEX</button>
+            <button class="B4">MICROMAX</button>
+            <button class="B5">KARBONN</button>
+        </div>
     </div>
 
     <br><br>
     <hr>
     
-    <div>
+    <div id="materials">
         <h3>
             Materials used in manufacturing :
         </h3>
@@ -113,7 +174,7 @@
         </p>
     </div>
 
-    <div>
+    <div id="steps">
         <h3>
             Manufacturing Steps   :
         </h3>
@@ -203,13 +264,26 @@
             These days, it’s also important that you try to make your packaging and shipping processes as sustainable and carbon-free as possible. Use green materials and work with third-party delivery providers that have invested in green energy.
 
         </p>
+        <p>
+            So, this was the Manufacturing Process of SmartPhone .
+        </p>
 
     </div>
  <hr>
     <div>
-        <p>
-            So, this was the Manufacturing Process of SmartPhone .
-        </p>
+        
+        <div id="contact" class="cont">
+
+            <br>
+            
+                <h5>CONTACT US</h5>
+                <div class="header3">
+                    <p><span class="tag1">EMAIL-ID &#128231</span>
+                        : ashutoshpatil.836@gmail.com</p>
+                    <p><span class="tag1">Call US 📞</span>: 77450****7 </p> 
+                </div>
+        </div>
+  
         <h2><b>Thank You </b></h2>
     </div>
 
